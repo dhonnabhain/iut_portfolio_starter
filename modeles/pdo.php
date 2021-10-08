@@ -3,7 +3,7 @@
 function connexion()
 {
     $bddNom = "portfolio_light";
-    $bddUrl = "127.0.0.1:3331";
+    $bddUrl = "127.0.0.1";
     $bddUtilisateur = "root";
     $bddMotDePasse = "";
     $bddPort = "3331";
