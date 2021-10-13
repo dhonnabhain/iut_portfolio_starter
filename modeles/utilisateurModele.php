@@ -12,7 +12,7 @@ function recuperationUtilisateurConnexion()
     return $requete->fetch(PDO::FETCH_ASSOC);
 }
 
-function creationUtilisateur($motDePasse)
+function creationUtilisateur()
 {
     $sql = "INSERT INTO users (login, email, password) VALUES (:login, :email, :password)";
 
