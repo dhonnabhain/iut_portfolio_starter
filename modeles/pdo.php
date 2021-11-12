@@ -2,11 +2,11 @@
 
 function connexion()
 {
-    $bddNom = "portfolio_light";
+    $bddNom = "portfolio_starter";
     $bddUrl = "127.0.0.1";
     $bddUtilisateur = "root";
-    $bddMotDePasse = "";
-    $bddPort = "3331";
+    $bddMotDePasse = "root";
+    $bddPort = "6631";
 
     return new PDO("mysql:host=$bddUrl;port=$bddPort;dbname=$bddNom", $bddUtilisateur, $bddMotDePasse);
 }
